@@ -3,9 +3,6 @@
 ##  Fix linking error for Ruby Bigdecimal
 ##  native extensions.
 ##
-
-apt install -yq patchelf
-
 for i in aarch64-linux-android arm-linux-androideabi \
     i686-linux-android x86_64-linux-android; do
 
